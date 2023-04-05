@@ -2,6 +2,7 @@
 Temperature and Humidity data is taken from Bureau of Meteorology
 
 ## Links
+| --- | --- | --- |
 | [Nambour](#nambour) | [Brisbane](#brisbane) | [Sydney](#sydney) |
 | [Canberra](#canberra) | [Melbourne](#melbourne) | [Hobart](#hobart) |
 | [Adelaide](#adelaide) | [Perth](#perth) | [Darwin](#darwin) |
