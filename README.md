@@ -1,46 +1,42 @@
-# A look at if it is really hotter this year.
+#A look at if it is really hotter this year.
 Temperature and Humidity data is taken from Bureau of Meteorology
 
-## Links
+##Links
 ![Nambour](#nambour)
 
-![Nambour](temp/#nambour)
 
-![Nambour](https://christian-andersen.github.io/temp/#nambour)
-
-
-## Nambour
+##Nambour
 <img src="images/NAMBOUR_max_temp.png"/>
 <img src="images/NAMBOUR_max_humidity.png"/>
 
-## Brisbane
+##Brisbane
 <img src="images/BRISBANE_max_temp.png"/>
 <img src="images/BRISBANE_max_humidity.png"/>
 
-## Sydney
+##Sydney
 <img src="images/SYDNEY_max_temp.png"/>
 <img src="images/SYDNEY_max_humidity.png"/>
 
-## Canberra
+##Canberra
 <img src="images/CANBERRA_max_temp.png"/>
 <img src="images/CANBERRA_max_humidity.png"/>
 
-## Melbourne
+##Melbourne
 <img src="images/MELBOURNE_max_temp.png"/>
 <img src="images/MELBOURNE_max_humidity.png"/>
 
-## Hobart
+##Hobart
 <img src="images/HOBART_max_temp.png"/>
 <img src="images/HOBART_max_humidity.png"/>
 
-## Adelaide
+##Adelaide
 <img src="images/ADELAIDE_max_temp.png"/>
 <img src="images/ADELAIDE_max_humidity.png"/>
 
-## Perth
+##Perth
 <img src="images/PERTH_max_temp.png"/>
 <img src="images/PERTH_max_humidity.png"/>
 
-## Darwin
+##Darwin
 <img src="images/DARWIN_max_temp.png"/>
 <img src="images/DARWIN_max_humidity.png"/>
