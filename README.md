@@ -1,6 +1,14 @@
 # A look at if it is really hotter this year.
 Temperature and Humidity data is taken from Bureau of Meteorology
 
+## Links
+![Nambour](#nambour)
+
+![Nambour](temp/#nambour)
+
+![Nambour](https://christian-andersen.github.io/temp/#nambour)
+
+
 ## Nambour
 <img src="images/NAMBOUR_max_temp.png"/>
 <img src="images/NAMBOUR_max_humidity.png"/>
