@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('temp_all.csv', parse_dates=[0])
+df = pd.read_csv('temp_all.csv', parse_dates=[1])
 df = df.set_index(df.date)
 df['year'] = df.date.dt.year
 df['month'] = df.date.dt.month
@@ -28,8 +28,8 @@ for location in locations:
         df_rolling = df_location.rolling(
             14, min_periods=1).mean(numeric_only=True)[column]
         x = df_location.loc['2023'].date.dt.strftime('%d/%m').to_list()
-        plt.plot(x, df_rolling.loc['2023'].iloc[:len(x)], label=2023)
         plt.plot(x, df_rolling.loc['2022'].iloc[:len(x)], label=2022)
+        plt.plot(x, df_rolling.loc['2023'].iloc[:len(x)], label=2023)
         plt.legend(loc="upper left")
         plt.xlabel('Date')
         plt.ylabel('Temperature (°C)')
@@ -40,6 +40,8 @@ for location in locations:
                 xticks.append(idx)
         if (len(x)-1) not in xticks:
             xticks.append(len(x)-1)
+        if xticks[-1]-xticks[-2] < 10:
+            xticks.pop(-2)
         plt.xticks(xticks)
         plt.savefig('images/'+location.split()[0]+'_'+column, dpi=400)
         plt.clf()
