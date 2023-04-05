@@ -2,7 +2,7 @@
 Temperature and Humidity data is taken from Bureau of Meteorology
 
 ## Links
-![Nambour](#nambour)
+[Nambour](#nambour)
 
 
 ## Nambour
